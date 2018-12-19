@@ -1,0 +1,76 @@
+/* 
+    Created on : 21 nov. 2018, 20:31:40
+    Author     : jonathan
+*/
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: white;
+}
+hr{
+  margin: 4vh;
+  width: 66%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* -ligne du haut */
+/* --les 2 div */
+.s9{
+  background-color: white;
+  height: 9.8vh;
+}
+.conection {
+  background-color: white;
+    height: 9.8vh;
+}
+/* -- le bouton connecter et "s'inscrire" */
+.connect{
+  margin: 1.6vh;
+  width: 29.2vh;
+  height: 5.7vh;
+  color: black;
+  background-color: white;
+}
+.connect:hover{
+  background-color: grey;
+}
+.buttons{
+  float: right;
+}
+.inscription{
+  margin: 1.6vh;
+  width: 29.2vh;
+  height: 5.7vh;
+  color: black;
+  text-align: center;
+}
+.inscription:hover{
+  color: grey;
+}
+
+nav{
+    height: 0vh;
+}
+.nav-wrapper{
+  background-color: white;
+}
+.nav-wrapper a{
+  background-color: white;
+  color: black;
+}
+
+fieldset{
+    border: solid grey 1px;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 30px;
+}
+legend{
+    font-size: 25px;   
+    margin: 5px;
+    padding: 8px;
+}
+
+.page-footer{
+   background-color: grey;
+}
+

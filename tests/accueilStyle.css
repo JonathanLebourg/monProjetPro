@@ -1,0 +1,64 @@
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+  background: white;
+}
+/* -ligne du haut */
+/* --les 2 div */
+.s9{
+  background-color: white;
+  height: 9.8vh;
+}
+.conection {
+  background-color: white;
+    height: 9.8vh;
+}
+/* -- le bouton connecter et "s'inscrire" */
+.connect{
+  margin: 1.6vh;
+  width: 29.2vh;
+  height: 5.7vh;
+  color: black;
+  background-color: white;
+}
+.connect:hover{
+  background-color: grey;
+}
+.buttons{
+  float: right;
+}
+.inscription{
+  margin: 1.6vh;
+  width: 29.2vh;
+  height: 5.7vh;
+  color: black;
+}
+.inscription:hover{
+  color: grey;
+}
+.material-icons{
+  float: left;
+}
+
+nav{
+    height: 0vh;
+}
+.nav-wrapper{
+  background-color: white;
+}
+.nav-wrapper a{
+  background-color: white;
+  color: black;
+}
+
+
+.presentation{
+  text-align: center;
+}
+.presentation-texte{
+  background-color: grey;
+  color: white;
+}
+
+.page-footer{
+   background-color: grey;
+}

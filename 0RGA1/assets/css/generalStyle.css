@@ -1,0 +1,138 @@
+/* Created on : 3 déc. 2018  || Author     : JON */
+
+/***----GENERAL----***/
+body,footer{
+    font-family: 'Open Sans Condensed', sans-serif;
+    background: white;
+    text-align: center;
+    color: black;
+}
+h1, h2{
+    text-align: center;  
+    margin: 4vh;
+}
+hr{
+    background-color: black;
+    margin-bottom: 4vh;
+    width: 80vh;
+    border: solid grey 0.3vh;
+    border-radius: 8vh;
+}
+.text-danger{
+    color: red;
+}
+/***----NAVBAR----***/
+nav{
+    height: 0vh;
+}
+.nav-wrapper{
+    background-color: white;
+}
+.nav-wrapper a{
+    background-color: white;
+    color: black;
+}
+.connection {
+    background-color: white;
+    height: 9.8vh;
+}
+#sidenav{
+    display: block;
+}
+.sidenav{
+    text-align: left;
+    width: 50vh;
+}
+nav ul li a.nohover:hover{
+    background-color: rgba(0,0,0,0);
+}
+/* -- le bouton connecter et "s'inscrire"-- */
+.connect{
+    margin: 1.6vh;
+    /*    width: 29.2vh;
+        height: 5.7vh;*/
+    color: black;
+    background-color: white;
+}
+.connect:hover{
+    background-color: grey;
+}
+.buttons{
+    float: right;
+}
+.inscription{
+    margin: 1.6vh;
+    width: 29.2vh;
+    height: 5.7vh;
+    color: black;
+}
+.inscription:hover{
+    color: grey;
+}
+.material-icons{
+    float: left;
+}
+/***----FOOTER----***/
+.page-footer{
+    background-color: white;
+}
+/***----BUTTONS----***/
+.choicebutton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 39.2vh;
+    height: 12vh;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border-radius: 2vh;
+}
+.choicebutton:hover{
+    background-color: grey;
+}
+/***----SPECIFIQUE----***/
+/**--page userChoice--**/
+.choice{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 65vh;
+    border: solid grey 0.3vh;
+    border-radius: 2.4vh;
+    padding: 4.8vh;
+    margin: 8vh;
+}
+.p_choice{
+    text-align: center;
+    height: 40vh;
+    padding: 5.7vh;
+}
+.userchoicebutton{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 44vh;
+    color: black;
+    background-color: white;
+    text-align: center;
+    border-radius: 2vh;
+}
+.userchoicebutton:hover{
+    background-color: grey;
+} 
+.disabled{
+    pointer-events: none;
+    cursor: default;
+}
+
+@media  all and (max-width:992px){
+    #responsive{
+        display: block
+    }
+}
+@media  all and (min-width:993px){
+    #responsive{
+        display: none
+    }
+}
